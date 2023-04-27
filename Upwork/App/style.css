@@ -1,0 +1,200 @@
+body {
+  /* background: #cddc3947; */
+  font-family: sans-serif;
+  font-size: 13px;
+}
+.job-item-title {
+  margin-bottom: 5px;
+}
+.span-title {
+  font-weight: bold;
+font-size: 24px;
+}
+.span-timeago {
+  font-size: 14px;
+  background: #FF9800;
+}
+.job-item-content {
+  font-size: 15px;
+}
+.job-item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid gray;
+  -webkit-transition: all 3s linear;
+  -moz-transition: all 3s linear;
+  -o-transition: all 3s linear;
+  transition: all 3s linear;
+}
+.span-budget {
+  color: white;
+  background: #043348;
+  border: 1px solid;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 0px 5px;
+}
+.span-country {
+  background: #277ba0;
+  border-radius: 13px;
+  color: white;
+  padding: 1px 6px;
+}
+.span-category {
+  background: #9e9e9e75;
+  border-radius: 12px;
+  padding: 1px 7px;
+}
+.span-skills {
+  background: #cce9f7;
+  border-radius: 12px;
+  padding: 1px 6px;
+}
+div.job-item-type {
+  margin-bottom: 4px;
+}
+div.job-itme-skills {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+div.job-item-link {
+  margin-top: 9px;
+  font-size: 10px;
+  color: #3F51B5;
+  cursor: pointer;
+  /* text-decoration: underline; */
+}
+.job-item.newjob {
+  background: #ffeb3b;
+  -webkit-transition: all 3s linear;
+  -moz-transition: all 3s linear;
+  -o-transition: all 3s linear;
+  transition: all 3s linear;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  right: 0;
+  bottom: 0;
+  width: 100%; /* Full width */
+  max-width: 1120px;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  box-shadow: 0px 0px 15px 3px #000;
+}
+/* Modal Content */
+.modal-content {
+  background: #607d8b;
+  margin: auto;
+  padding: 4px;
+  border: 1px solid #888;
+  width: 100%;
+}
+
+/* The Close Button */
+#modal_close_btn {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#modal_close_btn:hover,
+#modal_close_btn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bid_panel textarea {
+  width: 100%;
+  font-size: 15px;
+
+}
+.bid_panel {
+  margin-top: 10px;
+  margin-bottom: 10px;
+ }
+#bid_placedStatus {
+  display: none;
+}
+#bid_placedStatus span{
+  background: green;
+  color: white;
+  padding: 5px;
+  border-radius: 8px;
+}
+body {
+  padding: 5px;
+  line-height: 1.2;
+}
+#bid_price {
+  font-size: 20px;
+}
+#sendProposal_btn {
+  cursor: pointer;
+  padding: 6px;
+}
+.bidSuccessDiv {
+  margin: 10px 0px;
+  display: block;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding: 6px;
+}
+#sendProposal_btn i {
+  display: inline-block;
+}
+#sendProposal_btn span {
+  display: none;
+}
+#availableBidUsers label{
+  
+}
+.shakanim {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+#availableBidUsers label{
+  padding: 0px 14px;
+  border-radius: 8px;
+  color: white;
+  border: 1px solid #00ffff;
+}
+#availableBidUsers label:hover{
+  background: #9e9e9e;
+  cursor: pointer;
+}
+
+#bid_title {
+  color: white;
+}
+
+#availableBidUsers input{
+  vertical-align: middle;
+}

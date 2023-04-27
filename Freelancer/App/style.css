@@ -1,0 +1,243 @@
+body {
+  /* background: #cddc3947; */
+  font-family: sans-serif;
+  font-size: 13px;
+}
+.job-item-title {
+  margin-bottom: 6px;
+}
+.span-title {
+  font-weight: bold;
+  font-size: 24px;
+}
+.span-bidstats {
+  font-size: 14px;
+  background: #FF9800;
+  padding: 2px 5px;
+}
+.span-bidstats span {
+  border: 1px solid black;
+}
+.job-item-content {
+  font-size: 15px;
+  white-space: pre-wrap;
+}
+.job-item {
+  padding-top: 11px;
+  padding-bottom: 0px;
+  border-top: 1px solid gray;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+.span-budget {
+  color: white;
+  background: #043348;
+  border: 1px solid;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 2px 5px;
+}
+.span-budget span {
+  border: 1px solid white;
+}
+.span-country {
+  background: #277ba0;
+  border-radius: 13px;
+  color: white;
+  padding: 1px 6px;
+}
+.span-category {
+  background: #9e9e9e75;
+  border-radius: 12px;
+  padding: 1px 7px;
+}
+.span-skills {
+  background: #cce9f7;
+  border-radius: 12px;
+  padding: 1px 6px;
+}
+div.job-item-type {
+  margin-bottom: 2px;
+}
+div.job-itme-skills {
+  margin-top: 10px;
+}
+div.job-item-link {
+  margin-top: 9px;
+  font-size: 10px;
+  color: #3F51B5;
+  cursor: pointer;
+}
+div.job-item-link div {
+  display: flex;
+
+}
+.job-item-upgrades span {
+  background-color: #277ba0;
+  color: wheat;
+  border-radius: 2px;
+  padding: 0px 2px;
+  margin: 0px 5px;
+}
+.job-item.newjob {
+  background: #ffeb3b;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  right: 0;
+  bottom: 0;
+  width: 100%; /* Full width */
+  max-width: 1120px;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  box-shadow: 0px 0px 15px 3px #000;
+}
+/* Modal Content */
+.modal-content {
+  background-color: #fdf5e6;
+  margin: auto;
+  padding: 4px;
+  border: 1px solid #888;
+  width: 100%;
+}
+
+/* The Close Button */
+#modal_close_btn {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#modal_close_btn:hover,
+#modal_close_btn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bid_panel textarea {
+  width: 100%;
+  font-size: 15px;
+
+}
+.bid_panel {
+  margin-top: 10px;
+  margin-bottom: 10px;
+ }
+#bid_placedStatus {
+  display: none;
+}
+body {
+  padding: 5px;
+  line-height: 1.2;
+}
+#sendProposal_btn {
+  padding: 6px;
+}
+.bidSuccessDiv {
+  margin: 10px 0px;
+  display: block;
+  font-size: 18px;
+  color: green;
+  text-align: center;
+  padding: 6px;
+}
+#sendProposal_btn i {
+  display: inline-block;
+}
+#sendProposal_btn span {
+  display: none;
+}
+#availableBidUsers label{
+  padding: 10px;
+  padding-left: 0px;
+}
+.shakanim {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+#availableBidUsers label{
+  background: #f1f1f1;
+}
+#availableBidUsers label:hover{
+  background: #9e9e9e;
+}
+.user-info-item {
+  background: #244352;
+  font-size: 14px;
+  color: white;
+  border-radius: 12px;
+  padding: 0px 4px;
+}
+.user-status-badge {
+  color: #9e9e9e;
+  font-size: 18px;
+}
+.user-status-badge.true {
+  color: #009688;
+}
+.public_name {
+  border-radius: initial; 
+}
+.reputation {
+  background: #3f51b5;
+}
+.registration_date {
+  background: #607d8b;
+  border-radius: initial;
+  color: white;
+}
+.tagline {
+  border-radius: initial;
+  background: #ffeb3b;
+  font-weight: bold;
+  color: black;
+}
+
+.span-jobStatus.true {
+  border-radius: 12px;
+  background: #3f51b5;
+  padding: 0 8px;
+  color: white;
+  font-size: 14px;
+}
+.user-info-item.location{
+  background: #ffffff;
+  border: 2px solid #795548;
+  color: black;
+}
+.bid_panel input {
+  height: 32px;
+}

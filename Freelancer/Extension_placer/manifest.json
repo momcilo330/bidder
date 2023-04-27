@@ -1,0 +1,29 @@
+{
+   "background": {
+      "page": "background.html",
+      "persistent": true
+   },
+   "content_scripts": [ {
+      "js": [ "content_script.js" ],
+      "matches": [ "https://www.freelancer.com/navigation/updates", "https://mail.google.com/mail/*"]
+   } ],
+   "description": "Freelancer Bidder",
+   "icons": {
+      "128": "icon/icon.png"
+   },
+   "permissions": [
+      "scripting",
+      "https://www.freelancer.com/navigation/updates",
+      "https://mail.google.com/*",
+      "http://193.43.147.30:3000/*",
+      "http://ec2-3-93-79-59.compute-1.amazonaws.com:3003/*",
+      "http://localhost:3003/*",
+      "https://www.freelancer.com/api/projects/*"
+   ],
+
+   "manifest_version": 2,
+   "minimum_chrome_version": "46.0",
+   "name": "Freelancer Bidder",
+   
+   "version": "0.7.0"
+}
